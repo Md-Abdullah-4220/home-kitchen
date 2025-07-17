@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Spicy Chicken Curry",
+    "ingredients": {
+      "main": "chicken",
+      "spices": ["turmeric", "chili powder", "garam masala"],
+      "garnish": "coriander"
+    },
+    "rating": 4.5,
+    "price": 12.99,
+    "img": "https://img.freepik.com/premium-photo/chicken-curry-food-photography_162831-11.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grilled Salmon",
+    "ingredients": {
+      "main": "salmon",
+      "spices": ["black pepper", "lemon juice"],
+      "garnish": "parsley"
+    },
+    "rating": 4.8,
+    "price": 18.5,
+    "img": "https://img.freepik.com/premium-photo/grilled-red-fish-steak-with-lemon-spices-herbs_184982-31.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Veggie Pasta",
+    "ingredients": {
+      "main": "pasta",
+      "spices": ["oregano", "basil"],
+      "garnish": "parmesan"
+    },
+    "rating": 4.2,
+    "price": 9.99,
+    "img": "https://img.freepik.com/premium-photo/pasta-with-broccoli-pumpkin_687035-603.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Beef Steak",
+    "ingredients": {
+      "main": "beef",
+      "spices": ["salt", "black pepper", "thyme"],
+      "garnish": "rosemary"
+    },
+    "rating": 4.7,
+    "price": 22.0,
+    "img": "https://img.freepik.com/premium-photo/steak-ribeye-grilled-with-pepper-garlic_79782-2239.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Alfredo",
+    "ingredients": {
+      "main": "chicken, fettuccine",
+      "spices": ["garlic", "parsley"],
+      "garnish": "cream sauce"
+    },
+    "rating": 4.4,
+    "price": 13.5,
+    "img": "https://img.freepik.com/premium-photo/photograph-taken-eye-level-portrays-captivating-dish-featuring-tender-allwhitemeat-chicken-immersed-creamy-dreamy-alfredo-sauce-that-embraces-each-strand-perfectly-cooked_216520-1718.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Paneer Tikka",
+    "ingredients": {
+      "main": "paneer",
+      "spices": ["cumin", "red chili", "chat masala"],
+      "garnish": "onion rings"
+    },
+    "rating": 4.6,
+    "price": 10.99,
+    "img": "https://img.freepik.com/premium-photo/paneer-tikka-kabab-red-sauce-is-indian-dish-made-from-chunks-cottage-cheese_466689-67084.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shrimp Fried Rice",
+    "ingredients": {
+      "main": "shrimp, rice",
+      "spices": ["soy sauce", "pepper"],
+      "garnish": "green onion"
+    },
+    "rating": 4.3,
+    "price": 11.99,
+    "img": "https://img.freepik.com/premium-photo/fried-rice-with-shrimp-tomato-green-chopped-chili_615731-5053.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Tomato Soup",
+    "ingredients": {
+      "main": "tomato",
+      "spices": ["basil", "salt", "pepper"],
+      "garnish": "cream"
+    },
+    "rating": 4.0,
+    "price": 6.5,
+    "img": "https://img.freepik.com/premium-photo/tomato-soup-brown-bowl-wooden-table_123827-853.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mutton Biryani",
+    "ingredients": {
+      "main": "mutton, rice",
+      "spices": ["cardamom", "clove", "saffron"],
+      "garnish": "fried onions"
+    },
+    "rating": 4.9,
+    "price": 14.99,
+    "img": "https://img.freepik.com/premium-photo/dum-handi-muttona-a-a-a-biryania-a-a-a-gosht-pilaf-is-prepared-earthen-clay-pot-called-haandi-1-kilo-size-popular-indian-non-vegetarian-fooda-a-a-a_466689-52328.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Greek Salad",
+    "ingredients": {
+      "main": "lettuce, feta",
+      "spices": ["oregano", "olive oil"],
+      "garnish": "black olives"
+    },
+    "rating": 4.1,
+    "price": 8.0,
+    "img": "https://img.freepik.com/premium-photo/arabic-salad-with-vegetables-olives-feta_84130-3822.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Butter Naan",
+    "ingredients": {
+      "main": "wheat flour",
+      "spices": ["butter"],
+      "garnish": "cilantro"
+    },
+    "rating": 4.5,
+    "price": 2.5,
+    "img": "https://img.freepik.com/premium-photo/freshly-baked-naan-bread-brushed-with-ghee_167857-78385.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Prawn Masala",
+    "ingredients": {
+      "main": "prawn",
+      "spices": ["mustard", "garlic", "turmeric"],
+      "garnish": "green chili"
+    },
+    "rating": 4.6,
+    "price": 15.0,
+    "img": "https://img.freepik.com/premium-photo/goan-prawns-shrimp-curry-zinga-masala-also-known-as-kolambia-a-a-a-a-a-a-a-kalwana-a-a-a-a-a-a-a-tikhle_466689-71451.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Egg Sandwich",
+    "ingredients": {
+      "main": "egg, bread",
+      "spices": ["salt", "black pepper"],
+      "garnish": "lettuce"
+    },
+    "rating": 4.0,
+    "price": 5.5,
+    "img": "https://img.freepik.com/premium-photo/egg-salad-sandwich-with-toasted-bread-lettuce-white-wooden-background-selective-focus_114420-1975.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Sushi Platter",
+    "ingredients": {
+      "main": "rice, fish",
+      "spices": ["wasabi", "soy sauce"],
+      "garnish": "ginger"
+    },
+    "rating": 4.9,
+    "price": 25.0,
+    "img": "https://img.freepik.com/premium-photo/high-angle-view-sushi-served-plate-table_1048944-5922674.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Cheeseburger",
+    "ingredients": {
+      "main": "beef, cheese",
+      "spices": ["salt", "ketchup"],
+      "garnish": "lettuce"
+    },
+    "rating": 4.3,
+    "price": 8.99,
+    "img": "https://img.freepik.com/free-photo/front-view-yummy-meat-cheeseburger-with-french-fries-dark-background-dinner-burgers-snack-fast-food-sandwich-salad-dish-toast_140725-159215.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Tandoori Chicken",
+    "ingredients": {
+      "main": "chicken",
+      "spices": ["yogurt", "red chili", "garam masala"],
+      "garnish": "lemon slice"
+    },
+    "rating": 4.7,
+    "price": 13.5,
+    "img": "https://img.freepik.com/premium-photo/tandoori-chicken-is-chicken-dish-prepared-by-roasting-chicken-marinated-yogurt-spices-tandoor-clay-oven-served-with-onion-green-chutney_466689-77620.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Margherita Pizza",
+    "ingredients": {
+      "main": "cheese, tomato",
+      "spices": ["basil", "oregano"],
+      "garnish": "olive oil"
+    },
+    "rating": 4.2,
+    "price": 11.0,
+    "img": "https://img.freepik.com/premium-photo/pizza-margherita-stone-background_156140-6933.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Miso Ramen",
+    "ingredients": {
+      "main": "noodles, miso",
+      "spices": ["soy", "ginger", "garlic"],
+      "garnish": "boiled egg"
+    },
+    "rating": 4.6,
+    "price": 14.0,
+    "img": "https://img.freepik.com/premium-photo/asian-style-ramen-noodle-soup-with-bok-choy-carrot-lime-sesame-seeds-chicken-egg_82780-1509.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Fish Tacos",
+    "ingredients": {
+      "main": "fish, tortilla",
+      "spices": ["lime", "cumin"],
+      "garnish": "slaw"
+    },
+    "rating": 4.4,
+    "price": 10.5,
+    "img": "https://img.freepik.com/premium-photo/seafood-tacos-with-cilantro-lime-slaw_974629-507380.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Caesar Salad",
+    "ingredients": {
+      "main": "lettuce, croutons",
+      "spices": ["caesar dressing"],
+      "garnish": "parmesan"
+    },
+    "rating": 4.2,
+    "price": 7.5,
+    "img": "https://img.freepik.com/free-photo/caesar-salad-with-fried-chicken_140725-6063.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Dal Tadka",
+    "ingredients": {
+      "main": "lentils",
+      "spices": ["mustard seeds", "turmeric", "cumin"],
+      "garnish": "coriander"
+    },
+    "rating": 4.5,
+    "price": 8.25,
+    "img": "https://img.freepik.com/premium-photo/indian-dhal-spicy-curry-bowl_2829-3303.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Stuffed Paratha",
+    "ingredients": {
+      "main": "wheat flour, potato",
+      "spices": ["ajwain", "salt", "chili"],
+      "garnish": "butter"
+    },
+    "rating": 4.3,
+    "price": 6.0,
+    "img": "https://img.freepik.com/premium-photo/stuffed-cauliflower-gobi-paratha-is-indian-flatbread-favourite-breakfast-lunch-menu-north-india-served-moody-background-with-curd-tomato-ketchup-bowl_466689-62769.jpg"
+  },
+  {
+    "id": 23,
+    "name": "BBQ Ribs",
+    "ingredients": {
+      "main": "pork",
+      "spices": ["bbq sauce", "pepper"],
+      "garnish": "spring onion"
+    },
+    "rating": 4.7,
+    "price": 19.99,
+    "img": "https://img.freepik.com/premium-photo/closeup-three-delicious-juicy-perfectly-cooked-pork-ribs-glazed-with-barbecue-sauce-topped-with-fresh-parsley-sit-wooden-cutting-board_282218-44827.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Chocolate Cake",
+    "ingredients": {
+      "main": "flour, cocoa",
+      "spices": ["vanilla"],
+      "garnish": "chocolate chips"
+    },
+    "rating": 4.9,
+    "price": 6.99,
+    "img": "https://img.freepik.com/premium-photo/chocolate-cake-with-chocolate-cream-fresh-berries-plate-wooden-table_392895-20808.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Ice Cream Sundae",
+    "ingredients": {
+      "main": "ice cream",
+      "spices": ["none"],
+      "garnish": "cherry, nuts"
+    },
+    "rating": 4.8,
+    "price": 5.99,
+    "img": "https://img.freepik.com/free-photo/vanilla-ice-cream-with-walnuts-strawberry-syrop-mint-side-view_141793-12678.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Veg Burger",
+    "ingredients": {
+      "main": "veggie patty, bun",
+      "spices": ["pepper", "salt"],
+      "garnish": "lettuce, tomato"
+    },
+    "rating": 4.0,
+    "price": 7.49,
+    "img": "https://img.freepik.com/premium-photo/close-up-ice-cream-table_1048944-12714849.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Lobster Bisque",
+    "ingredients": {
+      "main": "lobster",
+      "spices": ["cream", "pepper", "sherry"],
+      "garnish": "chives"
+    },
+    "rating": 4.8,
+    "price": 21.0,
+    "img": "https://img.freepik.com/premium-photo/grilled-lobster-with-butter-garlic_1203-9836.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Falafel Wrap",
+    "ingredients": {
+      "main": "falafel, pita",
+      "spices": ["cumin", "tahini"],
+      "garnish": "lettuce"
+    },
+    "rating": 4.1,
+    "price": 8.5,
+    "img": "https://img.freepik.com/free-photo/chicken-shaurma-lavash-stuffed-with-meat-vegetables-served-with-dip-sauces_114579-1872.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Katsu Curry",
+    "ingredients": {
+      "main": "chicken cutlet, rice",
+      "spices": ["curry sauce"],
+      "garnish": "pickled radish"
+    },
+    "rating": 4.6,
+    "price": 13.75,
+    "img": "https://img.freepik.com/premium-photo/curry-rice-with-tonkatsu-fried-pork-cutlet-creamy-omelet-japanese-food-style_1339-183785.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Chili Paneer",
+    "ingredients": {
+      "main": "paneer",
+      "spices": ["soy sauce", "chili flakes"],
+      "garnish": "spring onion"
+    },
+    "rating": 4.4,
+    "price": 11.5,
+    "img": "https://img.freepik.com/premium-photo/spicy-kadai-paneer-with-stirfried-paneer_167857-55581.jpg"
+  }
+]
