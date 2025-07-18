@@ -24,17 +24,17 @@ function MyModal({ onClose, showDetail }) {
         {/* Overlay */}
         <div className="fixed inset-0 bg-black/40" aria-hidden="true" />
         {/* Modal Panel */}
-        <DialogPanel className="relative w-full flex gap-10 max-w-6xl rounded-xl bg-white p-6 backdrop-blur-2xl shadow-lg">
+        <DialogPanel className="relative w-full lg:flex gap-10 xl:max-w-6xl lg:max-w-4xl max-w-96 rounded-xl bg-white p-6 backdrop-blur-2xl shadow-lg">
           <img src={detailData.img} alt={detailData.name} />
-          <div className="flex justify-center items-center">
+          <div className="lg:flex justify-center items-center">
             <div>
               <DialogTitle
                 as="h3"
-                className="text-2xl font-medium text-gray-900"
+                className="text-2xl font-medium text-gray-900 font-bodydisplay"
               >
                 Name: {detailData?.name || "No name available"}
               </DialogTitle>
-              <div className="mt-2 text-gray-600">
+              <div className="mt-2 text-gray-600 font-bodydisplay">
                 <h1 className="test-2xl ">Ingredients: </h1>
                 <h1>Main: {detailData.ingredients.main}</h1>
                 <h1>Spices: {detailData.ingredients.spices.map((res,ids) => <h1 key={ids}>{res}</h1>)}</h1>

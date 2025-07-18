@@ -13,15 +13,15 @@ const Card = ({ prop }) => {
 
 
   return (
-    <div>
+    <div className="mb-2">
       <div className="p-5 rounded-xl overflow-hidden shadow-lg bg-white border-gray-300 border">
         <img
-          className="w-full h-64 object-cover"
+          className="w-full h-60 object-cover"
           src={img} // Replace with your real image URL
           alt="Grilled Salmon"
         />
         <div className="p-4">
-          <h3 className="text-lg font-semibold font-serif text-gray-800 mb-2">
+          <h3 className="xl:text-lg  font-semibold font-serif text-gray-800 mb-2">
             Name of dish: <span className="font-displaymain">{name}</span>
           </h3>
           <p className="text-gray-600 text-md mb-4">

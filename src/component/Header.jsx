@@ -13,7 +13,7 @@ const Header = ({ kitchendata, newArr, average }) => {
   }, []);
 
   return (
-    <div>
+    <div className="md:px-0 px-2">
       <div className="fixed top-0 left-0 w-full z-50 ">
         <div
           className={`${
@@ -59,29 +59,29 @@ const Header = ({ kitchendata, newArr, average }) => {
           </div>
         </div>
       </div>
-      <div className="bg-[url(/DARmaK3SG5zGJvYtAsJC5l-4096x4096.webp)] bg-[position:0%_58%] h-[680px] relative mt-16">
-        <div className="absolute right-[250px] top-[100px]">
-          <h1 className="font-displaymain text-[#303A40] text-[96px]">
+      <div className="bg-[url(/DARmaK3SG5zGJvYtAsJC5l-4096x4096.webp)] bg-cover bg-no-repeat bg-[position:0%_58%] md:h-[680px] h-1/2 relative mt-16">
+        <div className="md:absolute right-[250px] top-[100px]">
+          <h1 className="font-displaymain text-[#303A40] md:text-[96px]">
             Discoure the joy of
           </h1>
-          <p className="font-bodydisplay text-gray-500 max-w-[550px] text-xl mt-4">
+          <p className="font-bodydisplay text-gray-500 max-w-[550px] md:text-xl mt-4">
             Welcome to our kitchen, where the aroma of freshly prepared dishes
             fills the air and the art of cooking comes alive. Explore our
             vibrant selection of recipes
           </p>
           <div className="flex gap-3 mt-14">
-            <button className="px-10 py-3 cursor-pointer text-gray-400 text-xl  bg-[#303A40] rounded-2xl ">
+            <button className="md:px-10 md:py-3 px-6 py-1 cursor-pointer text-gray-400 md:text-xl  bg-[#303A40] rounded-2xl ">
               Order Now
             </button>
-            <button className="px-10 py-3 border-gray-400 text-xl cursor-pointer border rounded-2xl text-gray-500">
+            <button className="md:px-10 md:py-3 px-6 py-1 border-gray-400 text-xl cursor-pointer border rounded-2xl text-gray-500">
               Learn More
             </button>
           </div>
         </div>
       </div>
       <div className=" bg-[#303A40]">
-        <div className="max-w-[1600px] mx-auto flex justify-between text-2xl text-gray-100 py-3 font-bodydisplay">
-          <h1 className="max-w-[130px] text-center">
+        <div className="md:max-w-[1600px] mx-auto flex justify-between md:text-2xl text-gray-100 py-3 font-bodydisplay">
+          <h1 className="md:max-w-[130px] text-center">
             Totel Dish
             <span className="flex items-center justify-center gap-2 font-displaymain">
               {kitchendata.length}
@@ -92,7 +92,7 @@ const Header = ({ kitchendata, newArr, average }) => {
               />
             </span>
           </h1>
-          <h1 className="max-w-[180px] text-center">
+          <h1 className="md:max-w-[180px] text-center">
             Top Selling Dish
             <span className="flex items-center justify-center gap-2 font-displaymain">
               {newArr.length}
