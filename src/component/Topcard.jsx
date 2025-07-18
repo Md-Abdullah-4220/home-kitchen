@@ -18,9 +18,11 @@ const Topcard = ({ newArr }) => {
         ))}
       </div>
       <div className="max-w-[1380px] mx-auto flex justify-end">
-      <button className="bg-orange-500 hover:bg-orange-600 cursor-pointer text-white px-4 py-2 rounded-full text-sm transition">
-        See All dishes
-      </button>
+        <button
+          className="bg-orange-600 text-white px-4 py-3 rounded-xl text-sm cursor-pointer border border-transparent hover:bg-white hover:text-black hover:border-orange-500 transition-all duration-300 ease-in-out"
+        >
+          See All dishes
+        </button>
       </div>
     </>
   );

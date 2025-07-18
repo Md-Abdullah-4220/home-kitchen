@@ -46,7 +46,7 @@ const Header = ({ kitchendata, newArr, average }) => {
                   <a href="#">Contact</a>
                 </li>
               </ul>
-              <button className="bg-orange-600 hover:bg-white hover:text-black hover:border hover:border-orange-500 cursor-pointer text-white px-4 py-2 rounded-full text-sm transition-transform duration-300 hover:scale-105">
+              <button className="bg-orange-600 text-white px-4 py-2 rounded-xl text-sm cursor-pointer border border-transparent hover:bg-white hover:text-black hover:border-orange-500 transition-all duration-300 ease-in-out">
                 Book Now
               </button>
               <div className="text-3xl ml-3 md:hidden">

@@ -42,7 +42,7 @@ function MyModal({ onClose, showDetail }) {
               </div>
               <div className="mt-4">
                 <Button
-                  className="inline-flex items-center gap-2 rounded-md bg-orange-500 px-3 py-1.5 text-sm font-semibold text-white hover:bg-white hover:text-black hover:border hover:border-orange-600 transition-colors duration-200 cursor-pointer"
+                  className="inline-flex items-center gap-2 rounded-md bg-orange-500 px-3 py-1.5 text-sm font-semibold text-white border border-transparent hover:bg-white hover:text-black hover:border-orange-600 transition-colors duration-300 ease-in-out"
                   onClick={close}
                 >
                   Thanks!
