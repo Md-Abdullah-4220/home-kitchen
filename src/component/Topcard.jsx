@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Topcard = ({ newArr }) => {
   return (
-    <div className="md:px-0 px-3">
+    <div className="xl:px-0 px-3">
       <div className="my-10 flex flex-col items-center">
         <h1 className="lg:text-[70px] text-3xl text-[#303A40] font-bold font-displaymain">
           Culinary Masterpieces

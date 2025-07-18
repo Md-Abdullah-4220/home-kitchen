@@ -13,7 +13,7 @@ const Header = ({ kitchendata, newArr, average }) => {
   }, []);
 
   return (
-    <div className="md:px-0 px-2">
+    <div className="xl:px-0 px-2">
       <div className="fixed top-0 left-0 w-full z-50 ">
         <div
           className={`${
@@ -59,9 +59,9 @@ const Header = ({ kitchendata, newArr, average }) => {
           </div>
         </div>
       </div>
-      <div className="bg-[url(/DARmaK3SG5zGJvYtAsJC5l-4096x4096.webp)] bg-cover bg-no-repeat bg-[position:0%_58%] md:h-[680px] h-1/2 relative mt-16">
-        <div className="md:absolute right-[250px] top-[100px]">
-          <h1 className="font-displaymain text-[#303A40] md:text-[96px]">
+      <div className="bg-[url(/DARmaK3SG5zGJvYtAsJC5l-4096x4096.webp)] bg-cover bg-no-repeat lg:bg-[position:0%_58%] bg-[position:50%_58%] xl:h-[680px] md:h-[400px] h-1/2 relative mt-16">
+        <div className="xl:absolute md:p-0 p-5 right-[250px] top-[100px]">
+          <h1 className="font-displaymain text-[#303A40] xl:text-[96px] md:text-7xl text-4xl">
             Discoure the joy of
           </h1>
           <p className="font-bodydisplay text-gray-500 max-w-[550px] md:text-xl mt-4">
@@ -69,20 +69,21 @@ const Header = ({ kitchendata, newArr, average }) => {
             fills the air and the art of cooking comes alive. Explore our
             vibrant selection of recipes
           </p>
-          <div className="flex gap-3 mt-14">
-            <button className="md:px-10 md:py-3 px-6 py-1 cursor-pointer text-gray-400 md:text-xl  bg-[#303A40] rounded-2xl ">
+          <div className="flex gap-1 md:mt-14 mt-5">
+            <button className="md:px-10 md:py-3 px-4 py-1 cursor-pointer text-gray-400 md:text-xl  bg-[#303A40] rounded-2xl ">
               Order Now
             </button>
-            <button className="md:px-10 md:py-3 px-6 py-1 border-gray-400 text-xl cursor-pointer border rounded-2xl text-gray-500">
+            <button className="md:px-10 md:py-3 px-4 py-1 border-gray-400 text-xl cursor-pointer border rounded-2xl text-gray-500">
               Learn More
             </button>
           </div>
         </div>
       </div>
-      <div className=" bg-[#303A40]">
-        <div className="md:max-w-[1600px] mx-auto flex justify-between md:text-2xl text-gray-100 py-3 font-bodydisplay">
-          <h1 className="md:max-w-[130px] text-center">
-            Totel Dish
+      <div className="bg-[#303A40]">
+        <div className="md:max-w-[1600px] mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4 py-6 text-gray-100 text-center font-bodydisplay md:text-2xl">
+          {/* Item 1 */}
+          <div className="flex flex-col items-center justify-center text-center px-2">
+            <span>Total Dish</span>
             <span className="flex items-center justify-center gap-2 font-displaymain">
               {kitchendata.length}
               <img
@@ -91,9 +92,11 @@ const Header = ({ kitchendata, newArr, average }) => {
                 alt="dish"
               />
             </span>
-          </h1>
-          <h1 className="md:max-w-[180px] text-center">
-            Top Selling Dish
+          </div>
+
+          {/* Item 2 */}
+          <div className="flex flex-col items-center justify-center text-center px-2">
+            <span>Top Selling Dish</span>
             <span className="flex items-center justify-center gap-2 font-displaymain">
               {newArr.length}
               <img
@@ -102,14 +105,18 @@ const Header = ({ kitchendata, newArr, average }) => {
                 alt="dish"
               />
             </span>
-          </h1>
-          <h1 className="max-w-[300px] text-center">
-            Coustomar Rating out of 5
-            <span className="flex items-center justify-center gap-2 font-displaymain">
-              {average}
-            </span>
-          </h1>
-          <h1 className="max-w-[150px] text-center">Discover our most </h1>
+          </div>
+
+          {/* Item 3 */}
+          <div className="flex flex-col items-center justify-center text-center px-2">
+            <span>Our Rating</span>
+            <span className="font-displaymain">{average}</span>
+          </div>
+
+          {/* Item 4 */}
+          <div className="flex flex-col items-center justify-center text-center px-2">
+            <span>Discover our most</span>
+          </div>
         </div>
       </div>
     </div>
