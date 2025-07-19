@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { IoIosMenu } from "react-icons/io";
+import { IoCloseSharp } from "react-icons/io5";
 
 const Header = ({ kitchendata, newArr, average }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -11,6 +12,15 @@ const Header = ({ kitchendata, newArr, average }) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const navLinks = [
+    { id: 1, path: "/blog/react-intro", name: "Home" },
+    { id: 2, path: "/blog/javascript-tips", name: "Menu" },
+    { id: 3, path: "/blog/css-grid-vs-flexbox", name: "About" },
+    { id: 4, path: "/blog/nextjs-routing", name: "Contact" },
+  ];
+
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="xl:px-0 px-2">
@@ -33,7 +43,13 @@ const Header = ({ kitchendata, newArr, average }) => {
             </div>
             <nav className="flex md:gap-16 items-center">
               <ul className="hidden md:flex gap-10 font-bodydisplay text-gray-500">
-                <li>
+                {navLinks.map((res) => (
+                  <li key={res.id}>
+                    <a href={res.path}>{res.name}</a>
+                  </li>
+                ))}
+
+                {/* <li>
                   <a href="#">Home</a>
                 </li>
                 <li>
@@ -44,17 +60,32 @@ const Header = ({ kitchendata, newArr, average }) => {
                 </li>
                 <li>
                   <a href="#">Contact</a>
-                </li>
+                </li> */}
               </ul>
               <button className="bg-orange-600 text-white px-4 py-2 rounded-xl text-sm cursor-pointer border border-transparent hover:bg-white hover:text-black hover:border-orange-500 transition-all duration-300 ease-in-out">
                 Book Now
               </button>
-              <div className="text-3xl ml-3 md:hidden">
-                <a href="#">
-                  <IoIosMenu />
-                </a>
+              <div
+                onClick={() => setOpen(!open)}
+                className="text-3xl ml-3 md:hidden"
+              >
+                {open === true ? <IoCloseSharp /> : <IoIosMenu />}
               </div>
-              <div></div>
+              {open && (
+                <ul className="absolute top-full left-0 w-full bg-white p-5 flex flex-col gap-4 text-gray-700 font-medium shadow-md z-10 md:hidden">
+                  {navLinks.map((res) => (
+                    <li key={res.id}>
+                      <a
+                        href={res.path}
+                        className="hover:text-orange-600 block"
+                        onClick={() => setOpen(false)}
+                      >
+                        {res.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </nav>
           </div>
         </div>
