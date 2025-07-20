@@ -3,6 +3,7 @@ import Header from "./component/Header"
 import Topcard from "./component/Topcard"
 import Billing from "./component/Billing"
 import About from "./component/About"
+import Fitback from "./component/Fitback"
 
 
 
@@ -33,6 +34,7 @@ console.log(average);
       <Topcard newArr={newArr}></Topcard>
       <Billing/>
       <About/>
+      <Fitback/>
     </>
   )
 }
