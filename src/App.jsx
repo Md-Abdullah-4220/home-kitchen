@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Header from "./component/Header"
 import Topcard from "./component/Topcard"
 import Billing from "./component/Billing"
+import About from "./component/About"
 
 
 
@@ -31,6 +32,7 @@ console.log(average);
       <Header newArr={newArr} kitchendata={kitchendata} average={average}></Header>
       <Topcard newArr={newArr}></Topcard>
       <Billing/>
+      <About/>
     </>
   )
 }
