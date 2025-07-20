@@ -48,19 +48,6 @@ const Header = ({ kitchendata, newArr, average }) => {
                     <a href={res.path}>{res.name}</a>
                   </li>
                 ))}
-
-                {/* <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">Menu</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li> */}
               </ul>
               <button className="bg-orange-600 text-white px-4 py-2 rounded-xl text-sm cursor-pointer border border-transparent hover:bg-white hover:text-black hover:border-orange-500 transition-all duration-300 ease-in-out">
                 Book Now

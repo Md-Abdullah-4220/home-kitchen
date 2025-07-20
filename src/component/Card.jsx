@@ -2,7 +2,7 @@ import { useState } from "react";
 import MyModal from "./style_component/MyModal";
 
 const Card = ({ prop }) => {
-  const { name, img, rating, price } = prop;
+  const { name, img, rating, price,cookingTime} = prop;
   const [showModal, setShowModal] = useState(false);
 
   const [showDetail, setShoDetail] = useState({});
@@ -24,11 +24,14 @@ const Card = ({ prop }) => {
           <h3 className="xl:text-lg  font-semibold font-serif text-gray-800 mb-2">
             Name of dish: <span className="font-displaymain">{name}</span>
           </h3>
-          <p className="text-gray-600 text-md mb-4">
-            Price: $<span>{price}</span>
+          <p className="text-gray-600 font-medium text-md mb-4">
+            Price: $<span className="font-normal">{price}</span>
           </p>
-          <p className="text-gray-600 text-md mb-4">
-            Rating of dish: <span>{rating}</span>
+          <p className="text-gray-600 font-medium text-md mb-4">
+            Rating of dish: <span className="font-normal">{rating}/5</span>
+          </p>
+          <p className="text-gray-600 font-medium text-md mb-4">
+            Cooking Time: <span className="font-normal">{cookingTime} min</span>
           </p>
           <div className="flex justify-between">
             <button className="bg-orange-600 hover:bg-white hover:text-black hover:border hover:border-orange-500 cursor-pointer text-white px-4 py-2 rounded-full text-sm transition-transform duration-300">

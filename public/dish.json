@@ -9,6 +9,7 @@
     },
     "rating": 4.5,
     "price": 12.99,
+    "cookingTime": 45,
     "img": "https://img.freepik.com/premium-photo/chicken-curry-food-photography_162831-11.jpg"
   },
   {
@@ -21,6 +22,7 @@
     },
     "rating": 4.8,
     "price": 18.5,
+    "cookingTime": 20,
     "img": "https://img.freepik.com/premium-photo/grilled-red-fish-steak-with-lemon-spices-herbs_184982-31.jpg"
   },
   {
@@ -33,6 +35,7 @@
     },
     "rating": 4.2,
     "price": 9.99,
+    "cookingTime": 25,
     "img": "https://img.freepik.com/premium-photo/pasta-with-broccoli-pumpkin_687035-603.jpg"
   },
   {
@@ -45,6 +48,7 @@
     },
     "rating": 4.7,
     "price": 22.0,
+    "cookingTime": 15,
     "img": "https://img.freepik.com/premium-photo/steak-ribeye-grilled-with-pepper-garlic_79782-2239.jpg"
   },
   {
@@ -57,6 +61,7 @@
     },
     "rating": 4.4,
     "price": 13.5,
+    "cookingTime": 30,
     "img": "https://img.freepik.com/premium-photo/photograph-taken-eye-level-portrays-captivating-dish-featuring-tender-allwhitemeat-chicken-immersed-creamy-dreamy-alfredo-sauce-that-embraces-each-strand-perfectly-cooked_216520-1718.jpg"
   },
   {
@@ -69,6 +74,7 @@
     },
     "rating": 4.6,
     "price": 10.99,
+    "cookingTime": 35,
     "img": "https://img.freepik.com/premium-photo/paneer-tikka-kabab-red-sauce-is-indian-dish-made-from-chunks-cottage-cheese_466689-67084.jpg"
   },
   {
@@ -81,6 +87,7 @@
     },
     "rating": 4.3,
     "price": 11.99,
+    "cookingTime": 20,
     "img": "https://img.freepik.com/premium-photo/fried-rice-with-shrimp-tomato-green-chopped-chili_615731-5053.jpg"
   },
   {
@@ -93,6 +100,7 @@
     },
     "rating": 4.0,
     "price": 6.5,
+    "cookingTime": 25,
     "img": "https://img.freepik.com/premium-photo/tomato-soup-brown-bowl-wooden-table_123827-853.jpg"
   },
   {
@@ -105,6 +113,7 @@
     },
     "rating": 4.9,
     "price": 14.99,
+    "cookingTime": 60,
     "img": "https://img.freepik.com/premium-photo/dum-handi-muttona-a-a-a-biryania-a-a-a-gosht-pilaf-is-prepared-earthen-clay-pot-called-haandi-1-kilo-size-popular-indian-non-vegetarian-fooda-a-a-a_466689-52328.jpg"
   },
   {
@@ -117,6 +126,7 @@
     },
     "rating": 4.1,
     "price": 8.0,
+    "cookingTime": 10,
     "img": "https://img.freepik.com/premium-photo/arabic-salad-with-vegetables-olives-feta_84130-3822.jpg"
   },
   {
@@ -129,6 +139,7 @@
     },
     "rating": 4.5,
     "price": 2.5,
+    "cookingTime": 15,
     "img": "https://img.freepik.com/premium-photo/freshly-baked-naan-bread-brushed-with-ghee_167857-78385.jpg"
   },
   {
@@ -141,6 +152,7 @@
     },
     "rating": 4.6,
     "price": 15.0,
+    "cookingTime": 25,
     "img": "https://img.freepik.com/premium-photo/goan-prawns-shrimp-curry-zinga-masala-also-known-as-kolambia-a-a-a-a-a-a-a-kalwana-a-a-a-a-a-a-a-tikhle_466689-71451.jpg"
   },
   {
@@ -153,6 +165,7 @@
     },
     "rating": 4.0,
     "price": 5.5,
+    "cookingTime": 10,
     "img": "https://img.freepik.com/premium-photo/egg-salad-sandwich-with-toasted-bread-lettuce-white-wooden-background-selective-focus_114420-1975.jpg"
   },
   {
@@ -165,6 +178,7 @@
     },
     "rating": 4.9,
     "price": 25.0,
+    "cookingTime": 40,
     "img": "https://img.freepik.com/premium-photo/high-angle-view-sushi-served-plate-table_1048944-5922674.jpg"
   },
   {
@@ -177,6 +191,7 @@
     },
     "rating": 4.3,
     "price": 8.99,
+    "cookingTime": 15,
     "img": "https://img.freepik.com/free-photo/front-view-yummy-meat-cheeseburger-with-french-fries-dark-background-dinner-burgers-snack-fast-food-sandwich-salad-dish-toast_140725-159215.jpg"
   },
   {
@@ -189,6 +204,7 @@
     },
     "rating": 4.7,
     "price": 13.5,
+    "cookingTime": 50,
     "img": "https://img.freepik.com/premium-photo/tandoori-chicken-is-chicken-dish-prepared-by-roasting-chicken-marinated-yogurt-spices-tandoor-clay-oven-served-with-onion-green-chutney_466689-77620.jpg"
   },
   {
@@ -201,6 +217,7 @@
     },
     "rating": 4.2,
     "price": 11.0,
+    "cookingTime": 20,
     "img": "https://img.freepik.com/premium-photo/pizza-margherita-stone-background_156140-6933.jpg"
   },
   {
@@ -213,6 +230,7 @@
     },
     "rating": 4.6,
     "price": 14.0,
+    "cookingTime": 30,
     "img": "https://img.freepik.com/premium-photo/asian-style-ramen-noodle-soup-with-bok-choy-carrot-lime-sesame-seeds-chicken-egg_82780-1509.jpg"
   },
   {
@@ -225,6 +243,7 @@
     },
     "rating": 4.4,
     "price": 10.5,
+    "cookingTime": 25,
     "img": "https://img.freepik.com/premium-photo/seafood-tacos-with-cilantro-lime-slaw_974629-507380.jpg"
   },
   {
@@ -237,6 +256,7 @@
     },
     "rating": 4.2,
     "price": 7.5,
+    "cookingTime": 10,
     "img": "https://img.freepik.com/free-photo/caesar-salad-with-fried-chicken_140725-6063.jpg"
   },
   {
@@ -249,6 +269,7 @@
     },
     "rating": 4.5,
     "price": 8.25,
+    "cookingTime": 40,
     "img": "https://img.freepik.com/premium-photo/indian-dhal-spicy-curry-bowl_2829-3303.jpg"
   },
   {
@@ -261,6 +282,7 @@
     },
     "rating": 4.3,
     "price": 6.0,
+    "cookingTime": 20,
     "img": "https://img.freepik.com/premium-photo/stuffed-cauliflower-gobi-paratha-is-indian-flatbread-favourite-breakfast-lunch-menu-north-india-served-moody-background-with-curd-tomato-ketchup-bowl_466689-62769.jpg"
   },
   {
@@ -273,6 +295,7 @@
     },
     "rating": 4.7,
     "price": 19.99,
+    "cookingTime": 120,
     "img": "https://img.freepik.com/premium-photo/closeup-three-delicious-juicy-perfectly-cooked-pork-ribs-glazed-with-barbecue-sauce-topped-with-fresh-parsley-sit-wooden-cutting-board_282218-44827.jpg"
   },
   {
@@ -285,6 +308,7 @@
     },
     "rating": 4.9,
     "price": 6.99,
+    "cookingTime": 50,
     "img": "https://img.freepik.com/premium-photo/chocolate-cake-with-chocolate-cream-fresh-berries-plate-wooden-table_392895-20808.jpg"
   },
   {
@@ -297,6 +321,7 @@
     },
     "rating": 4.8,
     "price": 5.99,
+    "cookingTime": 5,
     "img": "https://img.freepik.com/free-photo/vanilla-ice-cream-with-walnuts-strawberry-syrop-mint-side-view_141793-12678.jpg"
   },
   {
@@ -309,6 +334,7 @@
     },
     "rating": 4.0,
     "price": 7.49,
+    "cookingTime": 15,
     "img": "https://img.freepik.com/premium-photo/close-up-ice-cream-table_1048944-12714849.jpg"
   },
   {
@@ -321,6 +347,7 @@
     },
     "rating": 4.8,
     "price": 21.0,
+    "cookingTime": 45,
     "img": "https://img.freepik.com/premium-photo/grilled-lobster-with-butter-garlic_1203-9836.jpg"
   },
   {
@@ -333,6 +360,7 @@
     },
     "rating": 4.1,
     "price": 8.5,
+    "cookingTime": 20,
     "img": "https://img.freepik.com/free-photo/chicken-shaurma-lavash-stuffed-with-meat-vegetables-served-with-dip-sauces_114579-1872.jpg"
   },
   {
@@ -345,6 +373,7 @@
     },
     "rating": 4.6,
     "price": 13.75,
+    "cookingTime": 35,
     "img": "https://img.freepik.com/premium-photo/curry-rice-with-tonkatsu-fried-pork-cutlet-creamy-omelet-japanese-food-style_1339-183785.jpg"
   },
   {
@@ -357,6 +386,7 @@
     },
     "rating": 4.4,
     "price": 11.5,
+    "cookingTime": 25,
     "img": "https://img.freepik.com/premium-photo/spicy-kadai-paneer-with-stirfried-paneer_167857-55581.jpg"
   }
 ]
