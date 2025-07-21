@@ -4,6 +4,7 @@ import Topcard from "./component/Topcard"
 import Billing from "./component/Billing"
 import About from "./component/About"
 import Fitback from "./component/Fitback"
+import Footer from "./component/Footer"
 
 
 
@@ -35,6 +36,7 @@ console.log(average);
       <Billing/>
       <About/>
       <Fitback/>
+      <Footer/>
     </>
   )
 }

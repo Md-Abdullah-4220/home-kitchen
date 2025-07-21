@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="max-w-[1680px] mx-auto">
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2">
         <div className="p-20">
           <h1 className=" text-[#303A40] text-5xl font-extrabold font-displaymain">
             About Our Restaurant
@@ -48,7 +48,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <button className="md:px-10 md:py-3 px-4 py-1 cursor-pointer text-gray-400 md:text-xl  bg-[#303A40] rounded-2xl mt-5">
+          <button className="md:px-10 md:py-3 px-4 py-1 cursor-pointer text-white md:text-xl  bg-orange-500 rounded-2xl mt-5">
             Learn More
           </button>
         </div>
